@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal Event Kampus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Portal Event Kampus<br><h1>Universitas 17 Agustus 1945<br>Surabaya</h1>
+</header>
+<main>
+    <section class="event-card">
+        <h2 style="text-align: center;">Acara Wisuda untag yang ke-129</h2>
+        <p><strong>Tanggal:</strong> 31 Agustus -1 september 2024</p>
+        <p><strong>Deskripsi:</strong></p>
+
+        <div id="detailEvent">
+            <p> Pada tanggal 31 Agustus dan 1 September, Universitas 17 Agustus 1945 (Untag) Surabaya menyelenggarakan acara wisuda yang ke-129 dengan tema 'Patriot Optimis Indonesia Emas.' Acara yang diselenggarakan di area lapangan timur ini dihadiri oleh 1818 wisudawan Diploma, Sarjana, Magister, dan Doktor. Wisuda kali ini tidak hanya menjadi ajang perayaan kelulusan bagi ribuan mahasiswa, tetapi juga menjadi momen penting yang menegaskan komitmen universitas dalam mendukung tercapainya visi Indonesia Emas 2045.</p>
+        </div>
+
+        <button id="toggleDetail">Tampilkan Deskripsi </button>
+    </section>
+
+    <div>
+        <section class="event-card-1"></section>
+    </div>
+
+    <section class="form-section">
+        <h3>Form Pendaftaran</h3>
+        <form id="formDaftar">
+            <label>Nama:<input type="text" id="nama" required>
+            </label>
+            
+            <label>Email:<input type="email" id="email" required>
+            </label>
+            <br>
+            <br>
+            <label>
+                Jenis Peserta
+                <select id="jenisPeserta">
+                    <option value="">---Pilih---</option>
+                    <option value="Mahasiswa">Mahasiswa</option>
+                    <option value="Umum">Umum</option>
+                </select>
+            </label>
+            <label>
+                Jenis kelamin
+                <select id="jenisPeserta">
+                    <option value="">---Pilih---</option>
+                    <option value="Mahasiswa">laki-laki</option>
+                    <option value="Umum">Perempuan</option>
+                </select>
+            </label>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+
+        <p class="nomor">Total Peserta: <span id="jumlahPeserta">0</span></p>
+    </section>
+</main>
+<footer>
+    <p>&copy;Copyright By Vico 2025 </p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

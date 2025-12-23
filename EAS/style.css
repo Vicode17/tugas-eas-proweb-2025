@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 5;
+    background-image: linear-gradient(to right, #dd1111 0%, rgb(243, 243, 247) 100% );
+
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+.event-card {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+}
+.event-card-1{
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 80px;
+    height:370px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+   background-image: url(https://api.minio.jatimprov.go.id/kominfo-jatim/images/WhatsApp%20Image%202024-09-01%20at%2010.09.52-medium.jpeg);
+}
+.nomor {
+    text-align: center;
+}
+.form-section {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: #4a90e2;
+    color: white;
+}
+
+a:visited {
+    color: purple;
+}
+
+input:valid {
+    border:2px solid green;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+}
